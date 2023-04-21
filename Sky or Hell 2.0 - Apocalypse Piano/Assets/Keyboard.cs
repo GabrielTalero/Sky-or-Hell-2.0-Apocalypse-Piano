@@ -23,7 +23,7 @@ public class Keyboard : MonoBehaviour
     private void createOctave(int startNote, int octave){
         float width = content.GetComponent<RectTransform>().rect.width;
         float widthPerOctave = width / numberOfOctaves; 
-        float widthPerNote = widthPerOctave / 7; 
+        float widthPerNote = widthPerOctave / 7; //Extecion
 
         // 7 white tiles
         for (int i = 0; i < 7; i++)

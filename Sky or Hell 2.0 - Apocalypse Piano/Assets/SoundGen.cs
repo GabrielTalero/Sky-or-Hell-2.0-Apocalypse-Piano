@@ -71,7 +71,7 @@ public class SoundGen : MonoBehaviour
                 {          
                     float freq = frequencies[item][0];
                     float vibratoAmount = frequencies[item][1];
-                    float incrementAmount = (freq + freq/10*vibratoAmount) * 2f * Mathf.PI/ sampleRate;
+                    float incrementAmount = (freq + freq/12*vibratoAmount) * 2f * Mathf.PI/ sampleRate;
                     phase[counter] += incrementAmount;
                     data[i] += (float) (Mathf.Sin(phase[counter]));
                     if(phase[counter] > (Mathf.PI*2f)){
