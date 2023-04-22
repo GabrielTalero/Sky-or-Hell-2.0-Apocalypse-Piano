@@ -26,6 +26,11 @@ public class SoundGen : MonoBehaviour
     }
 
     public void OnKey(int keyNumber){
+
+
+        
+
+
         // https://www.inspiredacoustics.com/en/MIDI_note_numbers_and_center_frequencies
         float freq = 440 * Mathf.Pow(2, ((float)keyNumber-69f)/12f); 
         frequencies[keyNumber] = new List<float>{freq, 0};

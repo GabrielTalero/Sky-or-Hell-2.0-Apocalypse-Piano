@@ -8,11 +8,15 @@ public class Keyboard : MonoBehaviour
     public GameObject blackTile, whiteTile; 
     public GameObject content;
 
+    /*private Image myimage;
+    private Color myColor;*/
+
+
     public int numberOfOctaves;
     // Start is called before the first frame update
     void Start()
     {
-        int startNote = 24;
+        int startNote = 30;
         for (int i = 0; i < numberOfOctaves; i++)
         {
             createOctave(startNote+i*12, i);
@@ -74,6 +78,38 @@ public class Keyboard : MonoBehaviour
     public void keyOn(int midiNumber){
         Debug.Log("Clicked " + midiNumber); 
         GameObject.Find("SoundGen").GetComponent<SoundGen>().OnKey(midiNumber);
+        
+        //whiteTile = GetComponent<Renderer>();
+
+        //"m_Color"
+        //whiteTile.material("m_Color", Color.green);
+        
+        //m_Color.color.black;
+        
+        
+        
+        //Image spriteRenderer = whiteTile.GetComponent<Image>();
+        //spriteRenderer.color = Color.black;
+
+        //whiteTile("Black");
+        //whiteTile(GameObject.Black);
+
+
+        /*SpriteRenderer spriteRenderer = whiteTile.GetComponent<SpriteRenderer>();
+        MaterialPropertyBlock propertyBlock = new MaterialPropertyBlock();
+        spriteRenderer.GetPropertyBlock(propertyBlock);
+        propertyBlock.SetColor("_Color", Color.black);
+        spriteRenderer.SetPropertyBlock(propertyBlock);*/
+
+
+        //myimage.color = myColor;
+
+        //Renderer renderer = whiteTile.GetComponent<Renderer>();
+        //renderer.material.color = Color.black;
+
+        //image.GetComponent<Image>().color = new Color32(255,255,225,100);
+
+
     }
 
     public void keyOff(int midiNumber){
