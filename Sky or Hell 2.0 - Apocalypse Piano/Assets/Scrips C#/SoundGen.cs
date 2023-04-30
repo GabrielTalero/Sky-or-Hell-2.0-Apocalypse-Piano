@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class SoundGen : MonoBehaviour
 {
     /* 
@@ -13,8 +14,8 @@ public class SoundGen : MonoBehaviour
 
     public Dictionary<int, List<float>> frequencies;
 
-    List<float> phase, increment; 
- 
+    List<float> phase, increment;
+
     void Awake()
     {
         sampleRate = AudioSettings.outputSampleRate;
@@ -23,18 +24,18 @@ public class SoundGen : MonoBehaviour
         frequencies = new Dictionary<int, List<float>>();
         audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.playOnAwake = true;
+
     }
 
     public void OnKey(int keyNumber){
 
-
-        
-
-
         // https://www.inspiredacoustics.com/en/MIDI_note_numbers_and_center_frequencies
         float freq = 440 * Mathf.Pow(2, ((float)keyNumber-69f)/12f); 
         frequencies[keyNumber] = new List<float>{freq, 0};
+
+
     }
+
 
     public void changePitch(int keyNumber, float pitch){
         try{

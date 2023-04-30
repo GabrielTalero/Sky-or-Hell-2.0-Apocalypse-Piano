@@ -78,16 +78,20 @@ public class Keyboard : MonoBehaviour
     public void keyOn(int midiNumber){
         Debug.Log("Clicked " + midiNumber); 
         GameObject.Find("SoundGen").GetComponent<SoundGen>().OnKey(midiNumber);
-        
+
+        //GameObject.Find("ReproducirSonido").GetComponent<ReproducirSonido>().ReproducirSonidoDelNumero(midiNumber);
+
+
+
         //whiteTile = GetComponent<Renderer>();
 
         //"m_Color"
         //whiteTile.material("m_Color", Color.green);
-        
+
         //m_Color.color.black;
-        
-        
-        
+
+
+
         //Image spriteRenderer = whiteTile.GetComponent<Image>();
         //spriteRenderer.color = Color.black;
 
