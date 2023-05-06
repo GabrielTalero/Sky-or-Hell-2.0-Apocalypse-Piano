@@ -218,17 +218,17 @@ public class Level : MonoBehaviour {
     /// Inicializa los valores del scoreboard
     /// </summary>
     void createScoreBoard(int initScore){
-        Vector3 screenPosition = new Vector3(10, Camera.main.pixelHeight-45, 20);
+        Vector3 screenPosition = new Vector3(10, Camera.main.pixelHeight-45, 20);//Antes -45, 20 Se mueve en y.
         scoreboard = GameObject.Find("ScoreText");
         TextMesh texto = scoreboard.GetComponent<TextMesh>();
-        texto.fontSize = 60;
+        texto.fontSize = 40;//60
         texto.characterSize = (float)0.1;
         texto.lineSpacing = 0;
-        texto.color = Color.white;
+        texto.color = Color.black; //Color.white;
         texto.text = "Score: " + initScore + " Combo: " + combo;
         scoreboard.transform.SetParent(transform);
         scoreboard.GetComponent<Renderer>().sortingLayerName = "Foreground";
-        scoreboard.GetComponent<Renderer>().sortingOrder = 99;
+        scoreboard.GetComponent<Renderer>().sortingOrder = 1;//99
         scoreboard.transform.position = Camera.main.ScreenToWorldPoint(screenPosition);
     }
 

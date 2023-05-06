@@ -42,6 +42,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Score
+    uniqueID: 3712670745
+    locked: 0
   - name: nubes
     uniqueID: 3880146935
     locked: 0
