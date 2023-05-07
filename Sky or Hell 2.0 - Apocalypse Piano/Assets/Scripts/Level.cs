@@ -92,6 +92,7 @@ public class Level : MonoBehaviour {
         fondo.transform.SetParent(transform);
         fondo.transform.localPosition = new Vector3(0, (float)2.3);
         fondo.transform.localScale = new Vector3((float)0.5, (float)0.5);
+        fondo.GetComponent<SpriteRenderer>().sortingOrder = -1;
     }
 
     bool loadLevel(){

@@ -16,7 +16,7 @@ public class Parallax_Nubes : MonoBehaviour
 
     }
 
-    private void Update(){
+    void Update(){
         offset = velocidadMovimiento * Time.deltaTime;
         material.mainTextureOffset += offset;
     } 

@@ -18,7 +18,7 @@ public class DestroyOnContact : MonoBehaviour {
     }
 
 	void OnTriggerEnter2D(Collider2D otro){
-        qb.observers.Remove(otro.gameObject);
+        //qb.observers.Remove(otro.gameObject);
         level.resetCombo();
         level.updateScore(0);
         Destroy(otro.gameObject);
