@@ -9,55 +9,55 @@ public class PlayMusic : MonoBehaviour
     
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Q)) {
+        if (Input.GetKeyDown(KeyCode.A)) {
             audioSource.PlayOneShot(voices[0]);
         }
-        else if(Input.GetKeyDown(KeyCode.W)) {
+        else if (Input.GetKeyDown(KeyCode.S)) {
             audioSource.PlayOneShot(voices[1]);
         }
-        else if(Input.GetKeyDown(KeyCode.E)) {
+        else if (Input.GetKeyDown(KeyCode.D)) {
             audioSource.PlayOneShot(voices[2]);
         }
-        else if(Input.GetKeyDown(KeyCode.R)) {
+        else if (Input.GetKeyDown(KeyCode.F)) {
             audioSource.PlayOneShot(voices[3]);
         }
-        else if(Input.GetKeyDown(KeyCode.T)) {
+        else if (Input.GetKeyDown(KeyCode.G)) {
             audioSource.PlayOneShot(voices[4]);
         }
-        else if(Input.GetKeyDown(KeyCode.Y)) {
+        else if (Input.GetKeyDown(KeyCode.H)) {
             audioSource.PlayOneShot(voices[5]);
         }
-        else if(Input.GetKeyDown(KeyCode.U)) {
+        else if (Input.GetKeyDown(KeyCode.J)) {
             audioSource.PlayOneShot(voices[6]);
         }
-        else if(Input.GetKeyDown(KeyCode.I)) {
+        else if (Input.GetKeyDown(KeyCode.K)) {
             audioSource.PlayOneShot(voices[7]);
         }
-        else if(Input.GetKeyDown(KeyCode.O)) {
+        else if (Input.GetKeyDown(KeyCode.L)) {
             audioSource.PlayOneShot(voices[8]);
         }
-        else if(Input.GetKeyDown(KeyCode.P)) {
+        else if (Input.GetKeyDown(KeyCode.BackQuote)) {
             audioSource.PlayOneShot(voices[9]);
         }
-        else if(Input.GetKeyDown(KeyCode.A)) {
+        else if(Input.GetKeyDown(KeyCode.W)) {
             audioSource.PlayOneShot(voices[10]);
         }
-        else if(Input.GetKeyDown(KeyCode.S)) {
+        else if(Input.GetKeyDown(KeyCode.E)) {
             audioSource.PlayOneShot(voices[11]);
         }
-        else if(Input.GetKeyDown(KeyCode.D)) {
+        else if(Input.GetKeyDown(KeyCode.T)) {
             audioSource.PlayOneShot(voices[12]);
         }
-        else if(Input.GetKeyDown(KeyCode.F)) {
+        else if(Input.GetKeyDown(KeyCode.Y)) {
             audioSource.PlayOneShot(voices[13]);
         }
-        else if(Input.GetKeyDown(KeyCode.G)) {
+        else if(Input.GetKeyDown(KeyCode.U)) {
             audioSource.PlayOneShot(voices[14]);
         }
-        else if(Input.GetKeyDown(KeyCode.H)) {
+        else if(Input.GetKeyDown(KeyCode.O)) {
             audioSource.PlayOneShot(voices[15]);
         }
-        else if(Input.GetKeyDown(KeyCode.J)) {
+        else if(Input.GetKeyDown(KeyCode.P)) {
             audioSource.PlayOneShot(voices[16]);
         }
     }
