@@ -5,12 +5,17 @@ using UnityEngine;
 public class PlayMusic : MonoBehaviour
 {
     public AudioSource audioSource;
+    public GameObject GameObject;
+
     public AudioClip[] voices;
+
+    public GameObject[] teclasPiano;
     
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.A)) {
             audioSource.PlayOneShot(voices[0]);
+            //teclasPiano.
         }
         else if (Input.GetKeyDown(KeyCode.S)) {
             audioSource.PlayOneShot(voices[1]);
