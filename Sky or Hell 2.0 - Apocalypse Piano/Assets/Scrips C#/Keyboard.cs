@@ -12,7 +12,7 @@ public class Keyboard : MonoBehaviour
     private Color myColor;*/
 
 
-    public int numberOfOctaves;
+    public float numberOfOctaves;
     // Start is called before the first frame update
     void Start()
     {

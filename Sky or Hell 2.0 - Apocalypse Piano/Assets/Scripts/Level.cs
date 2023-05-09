@@ -7,7 +7,7 @@ using System;
 using System.Collections;
 
 public class Level : MonoBehaviour {
-    private int dropletCounter, graceCounter=-1;
+    private int dropletCounter;//, graceCounter=-1
     public bool active, isLoading;
     private bool synchLoaded=false, errors=false;
     BeatSynchronizer sync;

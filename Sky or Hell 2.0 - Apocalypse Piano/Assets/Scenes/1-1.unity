@@ -938,7 +938,7 @@ MonoBehaviour:
   blackTile: {fileID: 1243943972}
   whiteTile: {fileID: 1357625613}
   content: {fileID: 28828848}
-  numberOfOctaves: 2
+  numberOfOctaves: 1.5
 --- !u!212 &619159262
 SpriteRenderer:
   m_ObjectHideFlags: 0

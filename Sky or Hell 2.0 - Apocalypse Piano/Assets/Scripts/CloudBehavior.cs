@@ -5,7 +5,7 @@ using SynchronizerData;
 public class CloudBehavior : MonoBehaviour {
 
     Vector3 localPosition;
-    int counter, counterinterval;
+    int counter;//, counterinterval
     int maxChildren;
     public int health;
     private List<string> notes;
