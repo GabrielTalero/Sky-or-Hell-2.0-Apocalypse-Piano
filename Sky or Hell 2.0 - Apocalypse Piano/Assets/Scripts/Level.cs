@@ -219,7 +219,7 @@ public class Level : MonoBehaviour {
     /// Inicializa los valores del scoreboard
     /// </summary>
     void createScoreBoard(int initScore){
-        Vector3 screenPosition = new Vector3(10, Camera.main.pixelHeight-45, 20);//Antes -45, 20 Se mueve en y.
+        Vector3 screenPosition = new Vector3(10, Camera.main.pixelHeight-138, 20);//Antes -45, 20 Se mueve en y.
         scoreboard = GameObject.Find("ScoreText");
         TextMesh texto = scoreboard.GetComponent<TextMesh>();
         texto.fontSize = 40;//60
