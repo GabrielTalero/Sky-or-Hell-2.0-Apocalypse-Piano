@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 using SynchronizerData;
+//using UnityEngine.SceneManagement;//Ulti 
 
 public class CloudBehavior : MonoBehaviour {
 
@@ -77,6 +78,12 @@ public class CloudBehavior : MonoBehaviour {
         lvlObject.cloudNumber--;
         active = false;
         Destroy(gameObject);
+        //SceneManager.LoadScene("Assets/Scenes/GAME_OVER");
+        //SceneManager.LoadScene("GAME_OVER");
+        //SceneManager.LoadScene("1-1");
+
+
+
     }
 
     public void takeDamage(int damage){

@@ -5,6 +5,10 @@ using System.Collections.Generic;
 using SynchronizerData;
 using System;
 using System.Collections;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
+
 
 public class Level : MonoBehaviour {
     private int dropletCounter;//, graceCounter=-1
@@ -18,6 +22,13 @@ public class Level : MonoBehaviour {
     public float comboUpdater, waterHeight;
     public string level, song, bgspritename, key;
     GameObject scoreboard, synchronizer;
+    public GameObject gameObject2;
+
+
+    
+    //public GameObject Reiniciar;
+   
+
     BeatCounter qb, gracePeriod; //qb = QuarterBeat
     List<string[]> clouds;
     /// <summary>
@@ -240,6 +251,7 @@ public class Level : MonoBehaviour {
 
         if (ingraceperiod)
             combo += 1;
+            
         return combo;
     }
 
@@ -247,6 +259,15 @@ public class Level : MonoBehaviour {
     {
         combo = 1;
     }
+
+    public void Game_Over()
+    {
+        //gameObject.GetComponent<Button>().interactable = true;
+
+         Button button = gameObject2.GetComponent<Button>();
+         button.onClick.Invoke();
+    }
+
 
     /// <summary>
     /// Actualiza el marcador de puntuación
@@ -270,6 +291,7 @@ public class Level : MonoBehaviour {
         GameObject[] nubes = GameObject.FindGameObjectsWithTag("Cloud");
         for (int i = 0; i < nubes.Length; i++)
             nubes[i].GetComponent<CloudBehavior>().active = false;
+          
 
         GameObject[] gotas = GameObject.FindGameObjectsWithTag("Droplet");
         for (int i = 0; i < gotas.Length; i++){
@@ -278,14 +300,40 @@ public class Level : MonoBehaviour {
         }
     }
 
+ 
+
+
+
     void Update(){
         if (active){
-            if (waterHeight > -6.5) {
+            if (waterHeight > -9.5) {//-6.5
                 Debug.Log("FIN");//Application.Quit();
-                destroyEverything();
-                active = false;
-                scoreboard.GetComponent<TextMesh>().text = "Final Score: " + score + " Perdiste";
-                Debug.Break();
+                //destroyEverything(); //ERA ESTE SETENTAHP
+                //active = false;
+                //scoreboard.GetComponent<TextMesh>().text = "Final Score: " + score + " Perdiste";
+                //SceneManager.LoadScene("GAME_OVER");
+                //SceneManager.LoadScene("INICIO");
+                //PlayerPrefs.DeleteAll();
+                //Debug.Break();
+                
+                Game_Over();
+
+                //gameObject.onClick.Invoke();
+
+
+                /*Button button = gameObject2.GetComponent<Button>(); // Obtener el componente Button del botón
+                //button.onClick.Invoke();
+                button.Invoke("onClick",0f);
+                
+                //PlayerPrefs.DeleteAll();*/
+                //gameObject2.onClick.Invoke();
+
+/*
+                Button button = gameObject2.GetComponent<Button>();
+                button.onClick.Invoke();*/
+
+
+
             }
             else if (cloudNumber < 1){
                 Debug.Log("FIN");//Application.Quit();
