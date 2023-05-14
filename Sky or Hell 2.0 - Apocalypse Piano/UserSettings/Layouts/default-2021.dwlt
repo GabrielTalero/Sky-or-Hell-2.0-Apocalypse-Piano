@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 66
+  controlID: 18
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 428
     height: 635
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 279
     height: 420
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 67
+  controlID: 23
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 68
+  controlID: 24
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -384,23 +384,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/PIANO/Scripts
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/PIANO/Scripts
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "C:\\Users\\William Galindo \u26A1\\Documents\\GitHub\\Sky-or-Hell-2.0-Apocalypse-Piano\\Sky
     or Hell 2.0 - Apocalypse Piano"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 34}
-    m_SelectedIDs: 56690000
-    m_LastClickedID: 26966
-    m_ExpandedIDs: 00000000346000004060000042600000446000007e600000826000001070000000ca9a3b
+    scrollPos: {x: 0, y: 370}
+    m_SelectedIDs: 56620000
+    m_LastClickedID: 25174
+    m_ExpandedIDs: 000000009e600000a0600000a2600000a4600000a6600000a86000000462000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -428,7 +428,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000034600000
+    m_ExpandedIDs: 000000009e600000a0600000a2600000a4600000a6600000a8600000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -560,21 +560,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 7a5efcff7470fcff0271fcffa2a7fcff92e3fcff9ae3fcff0afdfcff0cfdfcffac1bfdffae1bfdff7a1dfdff7c1dfdffdc41fdff8e49fdff8c50fdffc450fdffc650fdff6259fdff6459fdff3a79fdffdeaffdfff2affdff2cb0fdfffcb1fdff0cc5fdff12c7fdff9ce6fdffc6e6fdffc8e6fdff90e8fdff2e15feff4015feff6a15feff6c15fefffe15feff7617feffa017feffa817feffe827feff1e2afeff302afeff622afeffa23afeff4c3cfeff8a3cfeff543dfeff8e71feff2672fefff478feffb27bfeffdc8cfeff32aefeffbaaefeff48c1feff4cc3feff62c4feff7ac4feff8cc4feff8ec4feff44d9feff8ad9feff2e10ffff5810ffff5a10ffff4611ffffd811ffff6612ffffde18fffff618ffff0819ffff0a19ffff626affff7a6affff8c6affff8e6affff626cffff746cffffa66cffffa86cffffe675fffff875fffffa75ffffce77ffffd077ffff2e7fffff307fffff9081ffffd481ffffd681ffff8cb0ffffb2b8ffffc4b8ffffdcb8ffffeeb8fffff0b8ffff7ab9ffffa6baffff34bbffffc2bbffffa8bcffffb0beffff5abfffffe8bfffff28c0ffffb6c0fffff6c0ffff84c1ffffc4c1ffff52c2ffff0ec3ffffc2c3ffff2ef8ffff2cfbffff02760000a68600001c8700002a870000128e00004e8f0000ee920000fc920000529500009a9500008aa8000070ac000072bc0000c0dd0000cadd00000ee20000f8f30000dcfe0000f0fe000020ff000044ff0000360501004a050100c6190100d4190100561e01006a1e0100261f0100a4390100e43a0100ea4601006c7b0100
+      m_ExpandedIDs: 82f9ffff2cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Boton Game_Over
-        m_OriginalName: Boton Game_Over
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 83682
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -865,9 +865,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.9079022, y: -2.2620986, z: -1.662266}
+    m_Target: {x: -0.23436368, y: -1.7541122, z: -1.642593}
     speed: 2
-    m_Value: {x: 1.9079022, y: -2.2620986, z: -1.662266}
+    m_Value: {x: -0.23436368, y: -1.7541122, z: -1.642593}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -918,9 +918,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 8.831061
+    m_Target: 6.109981
     speed: 2
-    m_Value: 8.831061
+    m_Value: 6.109981
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -938,7 +938,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.24499899, y: 0.745163, z: -0.3630012, w: -0.50293}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 

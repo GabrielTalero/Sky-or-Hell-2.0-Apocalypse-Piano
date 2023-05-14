@@ -1,7 +1,7 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections.Generic;
 using SynchronizerData;
-//using UnityEngine.SceneManagement;//Ulti 
+using UnityEngine.SceneManagement;//Ulti 
 
 public class CloudBehavior : MonoBehaviour {
 
@@ -81,9 +81,6 @@ public class CloudBehavior : MonoBehaviour {
         //SceneManager.LoadScene("Assets/Scenes/GAME_OVER");
         //SceneManager.LoadScene("GAME_OVER");
         //SceneManager.LoadScene("1-1");
-
-
-
     }
 
     public void takeDamage(int damage){

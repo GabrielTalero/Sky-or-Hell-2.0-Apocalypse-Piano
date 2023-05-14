@@ -38,4 +38,12 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
 
     }
+
+
+        public void Creditos()
+    {
+        SceneManager.LoadScene("CREDITOS");
+
+        PlayerPrefs.DeleteAll();
+    }
 }
