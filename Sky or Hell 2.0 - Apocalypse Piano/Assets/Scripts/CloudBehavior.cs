@@ -121,7 +121,7 @@ public class CloudBehavior : MonoBehaviour {
         lvlObject = transform.parent.GetComponent<Level>();
         tag = "Cloud";
         //type = t;
-        ptchReg = ptch;
+        ptchReg = 3; //ptch  //VARIABLE PARA CONTROLAR LAS OCTAVAS DEL PIANO LETRA GOTA
         health = this.lifePoints = lp;
         notes = transform.parent.GetComponent<Level>().getNotes();
         assignColor();
