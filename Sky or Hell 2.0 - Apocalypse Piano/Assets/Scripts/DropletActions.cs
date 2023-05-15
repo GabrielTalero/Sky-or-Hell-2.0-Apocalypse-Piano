@@ -72,7 +72,7 @@ public class DropletActions : MonoBehaviour {
         texto.fontSize = 80;
         texto.characterSize = 1;
         texto.lineSpacing = 0;
-        texto.color = Color.black;//white
+        texto.color = Color.white;//black
         texto.fontStyle = FontStyle.Bold;
         nota = texto.text + transform.parent.GetComponent<CloudBehavior>().ptchReg;
         return objetoTexto;
