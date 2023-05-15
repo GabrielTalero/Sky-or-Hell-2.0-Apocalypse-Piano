@@ -1426,6 +1426,102 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!82 &652028333
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652028323}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &675642623
 GameObject:
   m_ObjectHideFlags: 0
@@ -2243,6 +2339,158 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: GameObject
+      value: 
+      objectReference: {fileID: 1863996052}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 652028333}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: voices.Array.size
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: voices.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: e5b32ae8528213644ab99b60dcf7d7fb, type: 3}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: voices.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: eec97e5ef79d327459a2622074329411, type: 3}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: voices.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: b95a12dec662d104dba31571ee4df617, type: 3}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: voices.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 526e6881f3824dd4d9c3e708d0e08f40, type: 3}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: voices.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b1ab8509ec6cfe4ca111350f2fab471, type: 3}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: voices.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: 62a68e5e51d092341aa5c23fbacc2f55, type: 3}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: voices.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: 61a1dfa6ae0b8ee4b8a3b1fef979aace, type: 3}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: voices.Array.data[7]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8d0037c2462d8f64485c6a4a66ba8b46, type: 3}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: voices.Array.data[8]
+      value: 
+      objectReference: {fileID: 8300000, guid: c541849c88498ab43be3761ca67f0011, type: 3}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: voices.Array.data[9]
+      value: 
+      objectReference: {fileID: 8300000, guid: e0368522efaba92468fa0f364191de53, type: 3}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: voices.Array.data[10]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0b899beb6577cb844b0923b3877ddcc6, type: 3}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: voices.Array.data[11]
+      value: 
+      objectReference: {fileID: 8300000, guid: 1a94ab07e1513cd4c8b3936424fa7458, type: 3}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: voices.Array.data[12]
+      value: 
+      objectReference: {fileID: 8300000, guid: 608fa91d3c0d361408b73f8b63c55a57, type: 3}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: voices.Array.data[13]
+      value: 
+      objectReference: {fileID: 8300000, guid: e2115267d1d894b4b951cdbc30acdab3, type: 3}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: voices.Array.data[14]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b57e4afd0ef8de4f93873758c6461bc, type: 3}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: voices.Array.data[15]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8424117f36febc547a342764e6f299c1, type: 3}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: voices.Array.data[16]
+      value: 
+      objectReference: {fileID: 8300000, guid: 86b52f6d8ec6e014b83445bcb7471dfe, type: 3}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: teclasPiano.Array.size
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: teclasPiano.Array.data[0]
+      value: 
+      objectReference: {fileID: 1333808137}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: teclasPiano.Array.data[1]
+      value: 
+      objectReference: {fileID: 889332220}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: teclasPiano.Array.data[2]
+      value: 
+      objectReference: {fileID: 1424828555}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: teclasPiano.Array.data[3]
+      value: 
+      objectReference: {fileID: 1909480811}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: teclasPiano.Array.data[4]
+      value: 
+      objectReference: {fileID: 1340515270}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: teclasPiano.Array.data[5]
+      value: 
+      objectReference: {fileID: 1814144503}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: teclasPiano.Array.data[6]
+      value: 
+      objectReference: {fileID: 750857017}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: teclasPiano.Array.data[7]
+      value: 
+      objectReference: {fileID: 309694382}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: teclasPiano.Array.data[8]
+      value: 
+      objectReference: {fileID: 1914318794}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: teclasPiano.Array.data[9]
+      value: 
+      objectReference: {fileID: 440095597}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: teclasPiano.Array.data[10]
+      value: 
+      objectReference: {fileID: 1445795045}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: teclasPiano.Array.data[11]
+      value: 
+      objectReference: {fileID: 1476858118}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: teclasPiano.Array.data[12]
+      value: 
+      objectReference: {fileID: 880514630}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: teclasPiano.Array.data[13]
+      value: 
+      objectReference: {fileID: 1860454362}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: teclasPiano.Array.data[14]
+      value: 
+      objectReference: {fileID: 1026978393}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: teclasPiano.Array.data[15]
+      value: 
+      objectReference: {fileID: 463397342}
+    - target: {fileID: 7667888295475467284, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
+      propertyPath: teclasPiano.Array.data[16]
+      value: 
+      objectReference: {fileID: 72073673}
     - target: {fileID: 7667888295475504304, guid: 31acda1695852594eade8b1cab1ca550, type: 3}
       propertyPath: gameObject
       value: 
