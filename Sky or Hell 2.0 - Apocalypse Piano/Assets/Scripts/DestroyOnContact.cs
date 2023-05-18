@@ -9,7 +9,7 @@ public class DestroyOnContact : MonoBehaviour {
 
     void Start(){
         level = GameObject.Find("Level").GetComponent<Level>();
-        desplazamiento = new Vector3(0, 0.05F, 0);
+        desplazamiento = new Vector3(0, 0.1F, 0);//0,005
     }
 
     public void desplazar(){

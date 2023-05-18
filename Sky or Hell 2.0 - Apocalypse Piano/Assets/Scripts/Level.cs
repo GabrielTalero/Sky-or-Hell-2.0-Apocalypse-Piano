@@ -24,6 +24,9 @@ public class Level : MonoBehaviour {
     GameObject scoreboard, synchronizer;
     public GameObject gameObject2;
 
+    public GameObject Demon;
+    public GameObject Angel;
+
 
     
     //public GameObject Reiniciar;
@@ -268,6 +271,17 @@ public class Level : MonoBehaviour {
          button.onClick.Invoke();
     }
 
+        //Cargar la scena Winner despues de 5 segundos
+    void CargarEscenaWinner()
+    {
+        SceneManager.LoadScene("WINNER");
+    }
+
+
+
+
+
+
 
     /// <summary>
     /// Actualiza el marcador de puntuación
@@ -306,7 +320,7 @@ public class Level : MonoBehaviour {
 
     void Update(){
         if (active){
-            if (waterHeight > -9.5) {//-6.5
+            if (waterHeight > -6.5) {//-6.5//Antes despacio fuego -9.5
                 Debug.Log("FIN");//Application.Quit();
                 //destroyEverything(); //ERA ESTE SETENTAHP
                 //active = false;
@@ -336,9 +350,20 @@ public class Level : MonoBehaviour {
 
             }
             else if (cloudNumber < 1){
-                Debug.Log("FIN");//Application.Quit();
+                 Debug.Log("FIN");
                 scoreboard.GetComponent<TextMesh>().text = "Final Score: " + score + " Ganaste";
-                Debug.Break();
+
+                Demon.SetActive(false);
+                Angel.SetActive(true);
+                PlayerPrefs.SetString("TextoGanador", scoreboard.GetComponent<TextMesh>().text);
+                //PlayerPrefs.Save();
+
+
+
+                // Ejecutar la carga de escena después de 5 segundos
+                Invoke("CargarEscenaWinner", 5f);
+
+                PlayerPrefs.DeleteAll();
             }
         }
     }

@@ -30,7 +30,7 @@ public class DropletActions : MonoBehaviour {
         tag ="Droplet";
         gameObject.name = lvlObject.newDropletID();
         GetComponent<SpriteRenderer>().color = transform.parent.GetComponent<CloudBehavior>().cloudColor; //Hacer la gota del color de la nube
-        GetComponent<Rigidbody2D>().gravityScale = 0.02f;//Random.Range((float)0.05, (float)0.1); //Qué tan rápido puede caer la gota
+        GetComponent<Rigidbody2D>().gravityScale = 0.04f;//Random.Range((float)0.05, (float)0.1); //Qué tan rápido puede caer la gota
         GetComponent<Renderer>().sortingOrder += 1; //Que esté una capa encima de la nube
         //desplazamiento = new Vector3(0, 0.00005f, 0);
         createText();
